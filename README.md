@@ -1,13 +1,13 @@
 # Machine Learning Using NIT
 ### Process:
--Evaluate the fitness of an individual bird (calculated based on time alive and pipes passed) \n
--Choose parents for reproduction, this is done somewhat randomly with bias towards better performing birds to be chosen as parents \n
--Create offspring via crossover as well as gene mutations, this is accomplished by mutating weights, adding connections, or very rarely, adding new nodes to the child's brain. \n
--Seperate the birds into species based on similarity to one another, if a bird is created such that its brain is too different from the others, a new species will be created \n
+-Evaluate the fitness of an individual bird (calculated based on time alive and pipes passed) \
+-Choose parents for reproduction, this is done somewhat randomly with bias towards better performing birds to be chosen as parents \
+-Create offspring via crossover as well as gene mutations, this is accomplished by mutating weights, adding connections, or very rarely, adding new nodes to the child's brain. \
+-Seperate the birds into species based on similarity to one another, if a bird is created such that its brain is too different from the others, a new species will be created \
 -Lastly, natural selection, every generation kills off the bottom half of the population, as well as any species which have not improved in 15 generations.
 
 ### Performance:
--By utilizing this process on a population of 100 birds, it takes on average 6 generations for a bird to be created with a brain capable of playing flappy bird for an indefinte amount of time \n
+-By utilizing this process on a population of 100 birds, it takes on average 6 generations for a bird to be created with a brain capable of playing flappy bird for an indefinte amount of time \
 
 ### The Brains:
 -The brain of each bird is a neural network of nodes and weighted connections \n
