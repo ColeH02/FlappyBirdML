@@ -10,14 +10,14 @@
 -By utilizing this process on a population of 100 birds, it takes on average 6 generations for a bird to be created with a brain capable of playing flappy bird for an indefinte amount of time \
 
 ### The Brains:
--The brain of each bird is a neural network of nodes and weighted connections \n
--The neural network takes in an array of inputs defined as what a player can see (distance to next pipe, distance to the top pipe, distance to the bottom pipe, and the current velocity)
--The nueral network outputs an array which represents the actions a player is able to take. In the case of flappy bird the only action is to flap so the output is one value
+-The brain of each bird is a neural network of nodes and weighted connections \
+-The neural network takes in an array of inputs defined as what a player can see (distance to next pipe, distance to the top pipe, distance to the bottom pipe, and the current velocity)\
+-The nueral network outputs an array which represents the actions a player is able to take. In the case of flappy bird the only action is to flap so the output is one value\
 
 ### Running The Program:
--This program is written in Processing which is a sketchbook language utilzing Java that promotes visual arts. 
--To start download Processing  [here](https://processing.org/download "here")
--Then just click run and watch the birds learn generation to generation
+-This program is written in Processing which is a sketchbook language utilzing Java that promotes visual arts. \
+-To start download Processing  [here](https://processing.org/download "here")\
+-Then just click run and watch the birds learn generation to generation\
 
 ![](https://cdn.discordapp.com/attachments/815292647715504140/907857848476786729/unknown.png)
 
