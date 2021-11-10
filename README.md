@@ -1,4 +1,4 @@
-#Machine Learning Using NIT
+\#Machine Learning Using NIT
 ###Process:
 -Evaluate the fitness of an individual bird (calculated based on time alive and pipes passed)
 -Choose parents for reproduction, this is done somewhat randomly with bias towards better performing birds to be chosen as parents
